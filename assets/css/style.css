@@ -1,17 +1,19 @@
 body ,header{
-  background-color: bisque;
-  min-height: 100vh;
+  background-color: #343330;
+  height: 100vh;
+  color: whitesmoke;
 }
 
 header{
-  position: relative;
+  /* position: relative; */
+  /* overflow-y: hidden;/ */
 }
 
 #ma-bulle{
-  /* background-color: brown; */
+  /* background-color: #45462a; */
   text-align: center;
   padding: 0;
-  height: 50%;
+  height: 50vh;
 }
 
 #ma-bulle figure{
@@ -21,15 +23,66 @@ header{
 }
 
 #moi{
-  width: 50vh;
-  height: 50vh;
-  margin: 0;
-  padding: 12px 0;
+  width: 45vh;
+  height: auto;
+  margin: 15px 0;
   border-radius: 50%;
+  border: 5px solid #D5D5D5;
+  
 }
 
 #welcome-msg{
-  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
+  height: 45vh;
   font-size: 2rem;
+}
+
+#welcome-msg h1{
+  color: #fe7f2d;
+  text-shadow: 2px 2px purple;
+  font-weight: bolder;
+}
+
+#social-network{
+
+}
+
+#social-network ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+
+#social-network ul li{
+  margin: 0 25px;
+}
+
+#social-network ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#facebook{
+  color: #1877f2 !important;
+}
+
+#youtube{
+  color: #ff0000 !important;
+}
+
+#linkedin{
+  color:  #007bb5 !important;
+}
+
+#twitter{
+  color:  #1da1f2 !important;
 }
